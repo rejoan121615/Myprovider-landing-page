@@ -590,6 +590,11 @@ video {
   margin: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
@@ -618,6 +623,14 @@ video {
   margin-bottom: 8rem;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -636,6 +649,18 @@ video {
 
 .h-\[115px\] {
   height: 115px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[513px\] {
+  height: 513px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-11\/12 {
@@ -658,12 +683,24 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .place-items-center {
   place-items: center;
 }
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -686,8 +723,20 @@ video {
   gap: 1.75rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.self-center {
+  align-self: center;
+}
+
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border {
@@ -740,6 +789,15 @@ video {
   background-color: #0C281780;
 }
 
+.bg-\[\#F5F1ED\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 241 237 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -751,6 +809,10 @@ video {
 
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-\[\] {
@@ -775,6 +837,14 @@ video {
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[75px\] {
+  font-size: 75px;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .font-semibold {
@@ -803,6 +873,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:text-\[45px\] {
     font-size: 45px;
   }
@@ -819,6 +893,10 @@ video {
     font-size: 22px;
   }
 
+  .md\:text-\[55px\] {
+    font-size: 55px;
+  }
+
   .md\:text-\[35\] {
     color: 35;
   }
@@ -833,12 +911,20 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:text-\[75px\] {
     font-size: 75px;
   }
 }
 
 @media (min-width: 1280px) {
+  .xl\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
   .xl\:text-\[75px\] {
     font-size: 75px;
   }
