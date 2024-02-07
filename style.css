@@ -2,3 +2,77 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary-color: #0c2817;
+}
+
+/* navbar code start */
+
+.navbar-wrapper {
+  background: white;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.navbar-links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.navbar-links-wrapper ul {
+  display: flex;
+  gap: 0 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-links-wrapper li {
+  list-style-type: none;
+}
+
+.navbar-links-wrapper li a {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-links-wrapper li a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-and-close-icon {
+  display: none;
+}
+
+.call-us {
+  padding: 11px 16px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+/* navbar code end  */
