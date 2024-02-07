@@ -5,6 +5,7 @@
 
 :root {
   --primary-color: #0c2817;
+  --secondary-color: #0c281766;
 }
 
 /* navbar code start */
@@ -48,6 +49,7 @@
 .navbar-links-wrapper li a:hover {
   color: var(--primary-color);
   text-decoration: underline;
+  font-weight: 600;
 }
 
 .nav-icon {
@@ -76,3 +78,70 @@
   transition: all 0.2s ease-in-out;
 }
 /* navbar code end  */
+
+/* header start  */
+
+.banner {
+  background: #fffdf6;
+}
+
+.banner-main-img {
+  height: 700px;
+  width: 50%;
+}
+
+.banner-text-content h2 {
+  font-family: "Inter";
+  font-size: 96px;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+
+.banner-text-content h2 span {
+  color: #0c281766;
+}
+
+.banner-circle-border {
+  height: 94px;
+  width: 171px;
+  border-radius: 52px;
+  background: white;
+  border: 1px solid var(--primary-color);
+  display: inline-block;
+  position: relative;
+}
+
+.banner-circle {
+  height: 76px;
+  width: 76px;
+  background: var(--primary-color);
+  border-radius: 100%;
+  margin-top: 8px;
+  margin-left: 10px;
+  position: absolute;
+  /* display: inline-block; */
+}
+.banner-circle-arrow {
+  position: absolute;
+  right: 28px;
+  top: 30px;
+}
+
+.banner-text-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--primary-color);
+  margin-top: 50px;
+}
+
+.scroll-down {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+/* header end  */

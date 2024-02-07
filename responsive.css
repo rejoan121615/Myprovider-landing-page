@@ -3,6 +3,16 @@
   display: none;
 }
 
+@media screen and (max-width: 1400px) {
+  .banner-text-content h2 {
+    font-size: 56px;
+  }
+
+  .banner-text-description {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   /* navbar code start  */
   .navbar-links-wrapper {
@@ -25,7 +35,7 @@
     flex-direction: column;
     gap: 10px;
     text-align: left;
-    margin-left: -80px !important;
+    /* margin-left: -80px !important; */
     transition: all 0.2s ease-in-out;
   }
 
@@ -49,10 +59,24 @@
   .nav-and-close-icon {
     display: block;
   }
+
+  .call-us {
+    margin-left: -22px;
+  }
 }
 
+@media screen and (max-width: 993px) {
+  .banner-main-img {
+    height: 700px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .navbar-wrapper {
     padding: 0 20px;
+  }
+
+  .banner-main-img {
+    height: 500px;
   }
 }

@@ -15,6 +15,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>My Provider</title>
   </head>
   <body>
@@ -32,14 +35,57 @@
             <li><a href="#">Client’s Story</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
+          <button class="call-us">Call Us</button>
         </div>
-        <button class="call-us">Call Us</button>
         <div class="nav-and-close-icon">
           <img class="nav-icon" src="images/menu.png" alt="" />
           <img src="images/close-window.png" class="close-icon" alt="" />
         </div>
       </nav>
       <!-- navbar content end  -->
+
+      <!-- banner start  -->
+      <div class="container m-auto banner">
+        <div
+          class="flex lg:flex-row banner-wrapper justify-between flex-col-reverse gap-4"
+        >
+          <div class="banner-text-content">
+            <h2>
+              <span class=""
+                >Our business
+                <aside class="banner-circle-border">
+                  <div class="banner-circle"></div>
+                  <img
+                    src="images/right-arrow.png"
+                    class="banner-circle-arrow"
+                    alt=""
+                  />
+                </aside>
+                is
+              </span>
+              powering your business.
+            </h2>
+
+            <p class="banner-text-description">
+              Introducing Myprovider B.V., your trusted Microsoft Gold Partner
+              in Almere Stad. Tailored solutions for compliance and maximizing
+              value. Trust us for seamless productivity.
+            </p>
+
+            <div class="scroll-down">
+              <img src="images/down-arrow.png" alt="" />
+              <p>Scroll Down</p>
+            </div>
+          </div>
+
+          <img
+            class="banner-main-img"
+            src="images/main-section-img.png"
+            alt="main section img"
+          />
+        </div>
+      </div>
+      <!-- banner end    -->
     </header>
 
     <!-- js file link  -->
